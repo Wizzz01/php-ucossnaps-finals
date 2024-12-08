@@ -1,0 +1,47 @@
+body {
+	font-family: "Arial";
+	background-color: #FFFFF0;
+}
+input {
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+}
+table, th, td {
+	border:1px solid black;
+}
+
+tr {
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.album-container {
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.album-container h3 {
+    margin-bottom: 10px;
+}
+
+.album-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
